@@ -1,0 +1,48 @@
+<!--
+Author: Riley campillo
+scramble.html contains the html code for 
+web page dedicated to the word scrambler activity
+Uses css style sheet scramble.css to organize and style
+the containers used in this page. Also uses scramble.js to
+incorporate code that adds functionality to the page.
+Section: CSC 337-001
+-->
+<!DOCTYPE html> <html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="scramble.css">
+    <script type="text/javascript" src="scramble.js"></script>
+    <meta charset="UTF-8">
+    <title>Unscramble</title>
+</head> 
+
+<body>
+    <h1>Unscramble</h1>
+
+        <div id = "div-1">
+        </div>
+        <p><button id="scramble"> Scramble</button></p>
+        <p><button id="new-game"> New Game</button></p>
+            
+      
+        <div id="guess-section">      
+        
+        <div id = "input-button">
+            <p class="prev_guess_header">Your Guess:</p>
+            <input type="textbox" id="guess"/> 
+            <button id="submit">Submit</button>
+        </div>
+           
+        
+            <div id = "correct-guesses">
+                <p class="prev_guess_header">Correct Guesses</p>
+                <p id = "correct-guess-list"> </p>
+            </div>    
+            <div id = "bad-guesses">
+                <p class="prev_guess_header">Incorrect Guesses</p>
+                <p id = "bad-guess-list"> </p>
+            </div> 
+        </div>
+</body>
+
+</html>
