@@ -1,0 +1,24 @@
+{
+  "name": "unscramble",
+  "version": "1.0.0",
+  "description": "unscramble final project",
+  "main": "scramble_service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uacs337spring2019/final-project-unscramble.git"
+  },
+  "keywords": [
+    "[\"node\"",
+    "\"express\"",
+    "\"static\"]"
+  ],
+  "author": "Riley Campillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uacs337spring2019/final-project-unscramble/issues"
+  },
+  "homepage": "https://github.com/uacs337spring2019/final-project-unscramble#readme"
+}
