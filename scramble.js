@@ -58,7 +58,7 @@ Section: CSC 337-001
     * @returns {void}
     */
     function guess(){
-        let url = "http://localhost:3000/?number="+gameNumber; 
+        let url = "http://unscramble-riley.herokuapp.com/?number="+gameNumber; 
         let guessWord = document.getElementById("guess").value;
         if (validate(guessWord) == false){
             return;
@@ -164,7 +164,7 @@ Section: CSC 337-001
     */
     function getWords(){
 
-        let url = "http://localhost:3000/?number="+gameNumber; 
+        let url = "http://unscramble-riley.herokuapp.com/?number="+gameNumber; 
 
         fetch(url)
 
