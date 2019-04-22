@@ -26,7 +26,7 @@ h1{
     font-family: "Comic Sans MS";
 }
 
-#div-1{
+#display{
     width:60%;
     height: 100px;
     margin: 0 auto;
@@ -49,11 +49,6 @@ p{
 }
 
 
-#validator-div{
-    bottom: 0px;
-    position: fixed;
-}
-
 #textbox{
     background-color: #FFFFFF;
     border:solid;
@@ -71,7 +66,9 @@ p{
 }
 
 
-
+#submit{
+    float:right;
+}
 
 #input-button, #correct-guesses, #bad-guesses{
     margin: 0 auto;
@@ -98,5 +95,8 @@ p{
     display: flex;
     justify-content: space-between;
 }
-
+#validator{
+    position: fixed;
+    bottom: 0;
+}
 

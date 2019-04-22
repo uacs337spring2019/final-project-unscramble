@@ -37,6 +37,18 @@ Section: CSC 337-001
         submitButton.onclick = guess;  
     };
 
+
+    function validate(guess){
+        let regexpression = /^[a-z]+$/i;
+        if (regexpression.test(guess)){
+            return true;
+        }
+        else{
+            alert("Not a valid input");
+            return false;
+        }
+    }
+
     //function that runs when the guess button is pushed
     // uses a fetch to gether potential words
     // and compares what the user has inputed to
@@ -48,6 +60,9 @@ Section: CSC 337-001
     function guess(){
         let url = "http://localhost:3000/?number="+gameNumber; 
         let guessWord = document.getElementById("guess").value;
+        if (validate(guessWord) == false){
+            return;
+        }
         for(let i = 0; i < guessedList.length; i++) {
             if (guessWord == guessedList[i]){
                 alert("You already guessed that!");
@@ -137,7 +152,7 @@ Section: CSC 337-001
             scrambledWord[i] = scrambledWord[randIndex];
             scrambledWord[randIndex] = tmp;
         }
-        let scrambledWordDiv = document.getElementById("div-1");
+        let scrambledWordDiv = document.getElementById("display");
         scrambledWordDiv.innerHTML = scrambledWord.join("");
         return scrambledWord.join("");
     }
