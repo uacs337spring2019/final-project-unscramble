@@ -2,7 +2,7 @@
   "name": "unscramble",
   "version": "1.0.0",
   "description": "unscramble final project",
-  "main": "scramble_service.js",
+  "start": "scramble_service.js",
   "dependencies": {
      "client-sessions": "^0.8.0",
     "cookie-parser": "^1.4.4",
