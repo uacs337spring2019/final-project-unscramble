@@ -57,6 +57,11 @@ app.get('/', function (req, res) {
 
 })
 //app.listen(process.env.PORT);
-app.listen(process.env.PORT || 3000);
+	if (port == null || port == "") {
+		app.listen(3000);
+	}
+    else{
+        app.listen(process.env.PORT);
+    }
 
 
