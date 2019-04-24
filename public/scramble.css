@@ -6,13 +6,13 @@ of the html elements
 Section: CSC 337-001
 */
 body{
-    font-size: 25pt;
+    font-size: 18pt;
     font-family: "Garamond", sans-serif;
     background-color: #b6c1ff;
 }
 
 h1{
-    font-size: 82pt;
+    font-size: 70pt;
     color:  #c1ffb6;
     text-align: center;
     border-bottom: solid;
@@ -27,7 +27,7 @@ h1{
 }
 
 button{
-    font-size: 15pt;
+    font-size: 11pt;
     border-radius: 5pt;
     background-color: #FF00FF;
 }
@@ -98,7 +98,7 @@ p{
 }
 
 .prev_guess_header{
-    font-size: 35pt;
+    font-size: 28pt;
     color: #c1ffb6;;
 }
 
