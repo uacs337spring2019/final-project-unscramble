@@ -6,13 +6,13 @@ of the html elements
 Section: CSC 337-001
 */
 body{
-    font-size: 12pt;
+    font-size: 25pt;
     font-family: "Garamond", sans-serif;
     background-color: #b6c1ff;
 }
 
 h1{
-    font-size: 72pt;
+    font-size: 82pt;
     color:  #c1ffb6;
     text-align: center;
     border-bottom: solid;
@@ -26,11 +26,23 @@ h1{
     font-family: "Comic Sans MS";
 }
 
+button{
+    font-size: 15pt;
+    border-radius: 5pt;
+    background-color: #FF00FF;
+}
+input{
+    height: 18pt;
+    font-size: 14pt;
+}
+
+
+
 #display{
     width:60%;
     height: 100px;
     margin: 0 auto;
-    font-size: 26pt;
+    font-size: 36pt;
     font-family: monospace;
     line-height: 100px;
     border-width: 6px;
@@ -46,6 +58,7 @@ p{
     text-align: center;
     margin: auto;
     margin-top: 10pt;
+    margin-bottom: 15pt;
 }
 
 
@@ -68,6 +81,7 @@ p{
 
 #submit{
     float:right;
+    margin-top: 4%;    
 }
 
 #input-button, #correct-guesses, #bad-guesses{
@@ -84,7 +98,7 @@ p{
 }
 
 .prev_guess_header{
-    font-size: 20pt;
+    font-size: 35pt;
     color: #c1ffb6;;
 }
 
@@ -95,6 +109,7 @@ p{
     display: flex;
     justify-content: space-between;
 }
+
 #validator{
     position: fixed;
     bottom: 0;
