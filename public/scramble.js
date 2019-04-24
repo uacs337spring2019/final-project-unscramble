@@ -126,6 +126,7 @@ Section: CSC 337-001
         let correctGuesses = document.getElementById("correct-guess-list");
         incorrectGuesses.innerHTML = "";
         correctGuesses.innerHTML = "";
+        guessedList = [];
         if (gameNumber == 5){
             gameNumber = 1;
         }
