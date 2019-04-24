@@ -99,7 +99,6 @@ Section: CSC 337-001
                     let node = document.createTextNode(guessWord);
                     incorrectGuesses.prepend(document.createElement("br"));
                     incorrectGuesses.prepend(node);
-                    console.log("incorrect");  
             })
 
             .catch(function(error) {
