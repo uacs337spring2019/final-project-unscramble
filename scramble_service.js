@@ -30,8 +30,8 @@ function read_file(file_name) {
 // of leeter arragements in that file int he form
 // of a dictionary
 function getLetters(number){
-	//"./public/" + 
-    let filename = number + ".txt";
+	
+    let filename = "./public/" + number + ".txt";
     let words = {"words":[], "letterCount": 0};
     fileContents = read_file(filename);
     fileContents = fileContents.split("\n");
