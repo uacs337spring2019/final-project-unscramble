@@ -58,7 +58,7 @@ Section: CSC 337-001
     * @returns {void}
     */
     function guess(){
-        let url = "https://final-unscramble-4.herokuapp.com?number="+gameNumber; 
+        let url = "https://final-unscramble-4.herokuapp.com?number=1"; 
         let guessWord = document.getElementById("guess").value;
         if (validate(guessWord) == false){
             return;
@@ -164,7 +164,7 @@ Section: CSC 337-001
     */
     function getWords(){
 
-        let url = "https://final-unscramble-4.herokuapp.com?number="+gameNumber; 
+        let url = "https://final-unscramble-4.herokuapp.com?number=1"; 
 
         fetch(url)
 
